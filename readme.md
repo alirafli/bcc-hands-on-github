@@ -174,7 +174,9 @@ Lalu kita menambahkan code di file `dashborad.html` untuk menyelesaikannya:
 </html>
 ```
 
-Karena pekerjaan di branch tersebut telah selesai, maka kita melakukan penggabungan dari branch `master` ke branch `feature/dashboard`
+jangan lupa untuk commit.
+
+Karena pekerjaan di branch tersebut telah selesai, maka kita melakukan penggabungan dari branch `feature/dashboard` ke branch `master`
 
 Setelah branch digabungkan, edit file `article.html`. di sini kita tambahkan judul artikel:
 
