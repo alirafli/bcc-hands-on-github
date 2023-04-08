@@ -244,7 +244,7 @@ Tidak lupa melakukan commit dengan pesan "change: 20 to 5 article".
 
 Setelah mengerjakan cukup banyak feature, kita sadar bahwa halaman materi di file `homepage.html` masih cukup banyak yang harus dikerjakan. Namun deadline aplikasi ini untuk release sudah semakin dekat. maka dari itu, kita akan bekerja sama dengan **John**
 
-akan tetapi, dikarenakan kebutuhan artikel ternyata 20, kita melakukan **revert** ke commit tempat kita menambahkan 20 artikel tadi.
+akan tetapi, dikarenakan kebutuhan artikel ternyata 20, kita melakukan **reset** ke commit tempat kita menambahkan 20 artikel tadi.
 
 Setelah melakukan revert, maka artikel sudah kita _rollback_ sehingga tidak perlu menulis ulang sebanyak 20 artikel.
 
