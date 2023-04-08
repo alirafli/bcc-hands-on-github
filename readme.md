@@ -219,9 +219,34 @@ Di commit kita selanjutnya menambahkan total 20 artikel:
 
 Tidak lupa melakukan commit dengan pesan "add: 20 articles".
 
+ternyata artikel yang diminta tidak sampai 20 melainkan hanya 5 saja. Akhirnya, di commit berikutnya kita **menghapus semua soal** tersebut dan menggantinya dengan 5 artikel:
+
+```html
+<html>
+<head>
+    <title>Article Page</title>
+</head>
+<body>
+    <ul>
+        <li>article one</li>
+        <li>article two</li>
+        <li>article three</li>
+        <li>article four</li>
+        <li>article five</li>
+    <ul>
+</body>
+</html>
+```
+
+Tidak lupa melakukan commit dengan pesan "change: 20 to 5 article".
+
 ## Scenario 5
 
 Setelah mengerjakan cukup banyak feature, kita sadar bahwa halaman materi di file `homepage.html` masih cukup banyak yang harus dikerjakan. Namun deadline aplikasi ini untuk release sudah semakin dekat. maka dari itu, kita akan bekerja sama dengan **John**
+
+akan tetapi, dikarenakan kebutuhan artikel ternyata 20, kita melakukan **revert** ke commit tempat kita menambahkan 20 artikel tadi.
+
+Setelah melakukan revert, maka artikel sudah kita _rollback_ sehingga tidak perlu menulis ulang sebanyak 20 artikel.
 
 ## Scenario 6
 
